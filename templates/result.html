@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Total Sales</title>
+    <style>
+        /* CSS for the container */
+        .container {
+            text-align: center;
+            margin-top: 100px;
+            font-family: Arial, sans-serif;
+        }
+
+        /* CSS for the animation */
+        @keyframes scale {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        /* CSS for the total sales display */
+        .total-sales {
+            font-size: 40px;
+            animation: scale 3s infinite;
+            margin-bottom: 20px;
+        }
+
+        /* CSS for the prediction disclaimer */
+        .disclaimer {
+            font-size: 14px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Total Sales</h1>
+        <div class="total-sales">{{prediction}}</div>
+        <p class="disclaimer">Please note that these numbers are predicted using a Random Forest algorithm. There is a chance of variation and inaccuracies.</p>
+    </div>
+</body>
+</html>
