@@ -16,6 +16,5 @@ We will implement 2 different machine learning supervised learning algorihtms:-<
 Data set Link:- "https://www.kaggle.com/datasets/shivan118/big-mart-sales-prediction-datasets"
 <hr/>
 You can read about Random Forest algorihtm:-
-<hr/>
 "https://towardsdatascience.com/random-forest-classification-678e551462f5"
 <hr/>
